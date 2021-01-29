@@ -2,24 +2,26 @@
 
 Finding memory leaks is hard. Writing code that causes memory leaks is not. A bad combination, right?
 
-1. Garbage Collection
-2. Memory Leaks
-3. Are we leaking? - Identifying a leak
-4. Where are we leaking? - Finding the leak
-5. Fixing the leak
-6. Learnings
+**Here's what we will cover:**
+
+1. Garbage Collection in JavaScript
+2. What are Memory Leaks?
+3. Are we leaking? - How to identifying a Memory Leak
+4. Where is the leak? - Finding the Memory Leak
+5. Fixing the Memory Leak
+6. My Learnings and Tips
 
 ## 1. Garbace Collection in JavaScript
 
 ## 2. What are Memory Leaks?
 
-## 3. Do we have a Memory Leak?
+## 3. Are we leaking? - How to identifying a Memory Leak
 
-## 4. Where is the Memory Leak?
+## 4. Where is the leak? - Finding the Memory Leak
 
 ## 5. Fixing the Memory Leak
 
-## 6. Learnings/Tips
+## 6. My Learnings and Tips
 
 - Use Allocation Timeline Profile
   - focus on single szenario
