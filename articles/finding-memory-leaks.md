@@ -29,6 +29,7 @@ Finding memory leaks is hard. Writing code that causes memory leaks is not. A ba
 - _Store as global variable_ helps to look into the object
 - Strip down page or build up from scratch to isolate parts
 - Look for retainers/references other than VueComponent
+- Name anonymous functions (at least while testing)
 - There might be multiple leaks in one place that cover each other
 - Futures should be canceled; Observables should be unsubscribed
   - Check the cleanup function
