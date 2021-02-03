@@ -26,6 +26,7 @@ Finding memory leaks is hard. Writing code that causes memory leaks is not. A ba
 - Use Allocation Timeline Profile
   - focus on single szenario
   - Ignore first page visit (or other interaction)
+- _Store as global variable_ helps to look into the object
 - Strip down page or build up from scratch to isolate parts
 - Look for retainers/references other than VueComponent
 - There might be multiple leaks in one place that cover each other
